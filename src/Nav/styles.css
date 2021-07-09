@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navigations {
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+}
+
+.nav-item {
+	text-align: center;
+	color: #000;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-family: Noto Sans, sans-serif;
+}
+
+.title {
+	font-size: 3em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #333;
+	margin: 0.5em 0.5em;
+	text-align: start;
+}
