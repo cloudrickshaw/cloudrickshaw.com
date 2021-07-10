@@ -1,3 +1,4 @@
+import SocialLink from "./SocialLink";
 import "./styles.css";
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
 					<div className="nav-item">F.A.Q</div>
 					<div className="nav-item">Book an Appointment</div>
 				</div>
-				<div className="social-links">"Social Links"</div>
+				<SocialLink />
 			</div>
 			<div className="title">Cloud Rickshaw</div>
 		</>
