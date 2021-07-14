@@ -12,13 +12,20 @@ const Navbar = () => {
 			<div className="navbar">
 				<div className="navigations">
 					<div className="nav-item">
-						<Button style={{ fontWeight: "bolder" }}>HOME</Button>
+						<Button style={{ fontWeight: "bolder", color: "black" }}>
+							HOME
+						</Button>
 					</div>
 					<div className="nav-item">
-						<Button style={{ fontWeight: "bolder" }}>F.A.Q</Button>
+						<Button style={{ fontWeight: "bolder", color: "black" }}>
+							F.A.Q
+						</Button>
 					</div>
 					<div className="nav-item">
-						<Button style={{ fontWeight: "bolder" }} onClick={redirectCalendly}>
+						<Button
+							style={{ fontWeight: "bolder", color: "black" }}
+							onClick={redirectCalendly}
+						>
 							Book an Appointment
 						</Button>
 					</div>
