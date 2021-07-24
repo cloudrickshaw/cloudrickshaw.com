@@ -1,18 +1,16 @@
 import "./App.css";
-import Navbar from "./Nav/Navbar";
-import Seperator from "./Components/Seperator";
+import Navbar from "./Components/Nav/Navbar";
+import ContentBlock from "./Components/Contents/ContentBlock";
+import metaData from "./Constants/meta.json";
 
 function App() {
 	return (
 		<div className="App">
 			<div className="wrapper">
 				<Navbar />
-				<Seperator title={"MISSION"} />
-				<Seperator title={"Values"} />
-				<Seperator title={"what we offer"} />
-				<Seperator title={"Team"} />
-				<Seperator title={"About"} />
-				<Seperator title={"Contacts"} />
+				{Object.keys(metaData).map((title) => {
+					return <ContentBlock title={title} content={metaData[title]} />;
+				})}
 			</div>
 		</div>
 	);
