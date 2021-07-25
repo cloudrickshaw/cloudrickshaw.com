@@ -23,7 +23,6 @@ const useStyles = makeStyles({
 		fontWeight: "bolder",
 		textTransform: "uppercase",
 		fontSize: "1.1em",
-		fontFamily: "Roboto, sans-serif",
 	},
 	title: {
 		fontFamily: "sans-serif",
