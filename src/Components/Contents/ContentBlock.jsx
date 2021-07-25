@@ -20,17 +20,16 @@ const useStyles = makeStyles({
 
 const ContentBlock = ({ title, content }) => {
 	const styles = useStyles();
-	debugger;
 	return (
 		<>
 			<Seperator title={title} />
-			{Array.isArray(content) ? (
-				content.map((text) => {
-					return <BulletPoint text={text} />;
-				})
+		  {
+            Array.isArray(content) ? (
+              content.map((text) => <BulletPoint text={text} key={text}/>)
 			) : (
 				<div className={styles.pContent}>{content}</div>
-			)}
+			)
+          }
 		</>
 	);
 };

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: local('Avenir-Medium'), url(./fonts/Avenir-Medium.ttf);
+}
+
+html,
+body {
+    background: #f2f2f2;
+    font-family: 'Avenir-Medium';
+}

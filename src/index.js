@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './index.css';
+import useTheme from './theme/mui';
+import { ThemeProvider } from '@material-ui/core/styles';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export const AppWithProvider = () => {
+  const muiTheme = useTheme();
+  return (
+    <React.StrictMode>
+      <ThemeProvider theme={muiTheme}>
+        <App />
+      </ThemeProvider>
+    </React.StrictMode>
+  );
+}
 
+ReactDOM.render(<AppWithProvider />, document.getElementById('root'));

@@ -5,7 +5,6 @@ const useStyles = makeStyles({
 	titleHr: { marginTop: "0.5em", width: "100%" },
 	titleRow: {
 		textAlign: "start",
-		fontFamily: "Roboto, sans-serif",
 		fontWeight: "bolder",
 		textTransform: "uppercase",
 		margin: "1.5em 0em",
