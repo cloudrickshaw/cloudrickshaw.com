@@ -9,16 +9,19 @@
     "Plan for the disaster recovery",
     "Training"
   ],
-  "COLLABORATION MODEL": [
+
+  "HOW TO COLLABORATE": [
     "Schedule a call",
     "Boil down the requirements",
     "Propose a design solution",
     "Estimate time and cost"
   ],
-  "COLLABORATION TYPES": [
+
+  "ENGAGEMENT TYPES": [
     "Long Term",
     "Ad-hoc"
   ],
+
   "TECHNOLOGIES": [
     "Cloud: AWS, GCP, Linode, Digital ocean",
     "Infrastructure As Code : terraform, cloudformation",
@@ -28,6 +31,7 @@
     "Data Security: vault, sops, kms",
     "Monitoring: Prometheus, Grafana, Cloudwatch"
   ],
+
   "CONTACT": [
     "Email: ping@cloudrickshaw.com",
     "Book an Appointment: https://calendly.com/cloudrickshaw"
