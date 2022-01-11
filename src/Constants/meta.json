@@ -1,24 +1,27 @@
 {
-  "INTRODUCTION": "We are a group of technology evangelists and who love to enable business ship features with operational excellence and confidence at scale.",
+  "INTRODUCTION": "We are a group of technology evangelists who love to enable business operate with confidence and excellence at scale",
   "WHAT WE OFFER": [
-    "grow and scale your business with operational excellence",
-    "simplify infrastructure/application deployment",
-    "speed up project delivery pipeline",
-    "capacity planning and efficient utilization of the resources",
-    "improve application performance and reliability",
-    "plan for the disaster recovery",
+    "Grow and scale your business with operational excellence",
+    "Simplify infrastructure/application deployment",
+    "Speed up project delivery pipeline",
+    "Capacity planning and efficient utilization of the resources",
+    "Improve application performance and reliability",
+    "Plan for the disaster recovery",
     "Training"
   ],
-  "COLLABORATION MODEL": [
+
+  "HOW TO COLLABORATE": [
     "Schedule a call",
     "Boil down the requirements",
     "Propose a design solution",
     "Estimate time and cost"
   ],
-  "COLLABORATION TYPES": [
+
+  "ENGAGEMENT TYPES": [
     "Long Term",
     "Ad-hoc"
   ],
+
   "TECHNOLOGIES": [
     "Cloud: AWS, GCP, Linode, Digital ocean",
     "Infrastructure As Code : terraform, cloudformation",
@@ -27,5 +30,10 @@
     "Database:  postgres, mongodb",
     "Data Security: vault, sops, kms",
     "Monitoring: Prometheus, Grafana, Cloudwatch"
+  ],
+
+  "CONTACT": [
+    "Email: ping@cloudrickshaw.com",
+    "Book an Appointment: https://calendly.com/cloudrickshaw"
   ]
 }
